@@ -1,4 +1,4 @@
-from vehicle_control.vehicle_actions import Vehicle_Control
+from vehicle_actions import Vehicle_Control
 
 def test():
     for i in range(20):

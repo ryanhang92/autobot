@@ -1,5 +1,5 @@
 import time
-from vehicle_control.windows_actions import Windows_Actions
+from windows_actions import Windows_Actions
 
 W_KEY = 0x11
 A_KEY = 0x1E
