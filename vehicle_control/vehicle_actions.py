@@ -19,23 +19,23 @@ class Vehicle_Control(object):
 
     @staticmethod
     def backward():
-        Windows_Actions.PressKey(W_KEY)
+        Windows_Actions.PressKey(S_KEY)
         time.sleep(SLEEP_INTERVAL)
-        Windows_Actions.ReleaseKey(W_KEY)
+        Windows_Actions.ReleaseKey(S_KEY)
         time.sleep(SLEEP_INTERVAL)
 
     @staticmethod
     def left():
-        Windows_Actions.PressKey(W_KEY)
+        Windows_Actions.PressKey(A_KEY)
         time.sleep(SLEEP_INTERVAL)
-        Windows_Actions.ReleaseKey(W_KEY)
+        Windows_Actions.ReleaseKey(A_KEY)
         time.sleep(SLEEP_INTERVAL)
 
     @staticmethod
     def right():
-        Windows_Actions.PressKey(W_KEY)
+        Windows_Actions.PressKey(D_KEY)
         time.sleep(SLEEP_INTERVAL)
-        Windows_Actions.ReleaseKey(W_KEY)
+        Windows_Actions.ReleaseKey(D_KEY)
         time.sleep(SLEEP_INTERVAL)
 
 
